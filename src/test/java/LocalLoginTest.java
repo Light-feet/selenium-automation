@@ -54,7 +54,6 @@ public class LocalLoginTest {
         System.out.println("Background Color: " + bgColor);
         Assert.assertEquals(bgColor, "rgba(173, 216, 230, 1)");
     }
-
     @AfterMethod
     public void tearDown() {
     	try {
